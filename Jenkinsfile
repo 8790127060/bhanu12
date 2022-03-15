@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-              sh 'touch /root/exaplile.txt'
+              sh 'touch h /root/exaplile.txt'
             }
         }
             stage ('port checking')
