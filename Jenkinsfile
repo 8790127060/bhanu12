@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-              sh 'touch h /root/exaplile.txt'
+              sh 'touch /root/exaplile.txt'
             }
         }
             stage ('port checking')
@@ -21,7 +21,7 @@ pipeline
         {
             steps
             {
-             sh 'top'
+             sh 'top -h'
             }
         }  
 		 stage ('creating one more file')
