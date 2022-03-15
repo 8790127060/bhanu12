@@ -28,7 +28,7 @@ pipeline
         {
             steps
             {
-              sh 'mkdir /root/exaplile'
+              sh 'mkdir /root/dddde'
             }
         }
     }
